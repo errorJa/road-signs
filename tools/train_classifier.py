@@ -91,7 +91,7 @@ def train(input_shape: tuple,
         layers.Conv2D(32, (3, 3), activation='relu', padding='same'),
         layers.Conv2D(32, (3, 3), activation='relu', padding='same'),
         layers.BatchNormalization(),
-        layers.MaxPooling2D((2, 2)),  # TODO: MaxPooling2D((4, 4))
+        layers.MaxPooling2D((2, 2)),
 
         # Блок 2
         layers.Conv2D(64, (3, 3), activation='relu', padding='same'),
