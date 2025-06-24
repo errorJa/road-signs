@@ -1,0 +1,14 @@
+{
+  "SAMPLES_DIR": "data/samples",
+  "DATASET_GEN_DIR": "data/generated",
+  "MODELS_DIR": "data/models",
+  "PLOTS_DIR": "data/training_plots",
+  "TARGET_SIZE": [
+    256,
+    256
+  ],
+  "NUM_IMAGES_PER_CLASS": 10,
+  "MODEL_VERSION": 6,
+  "BATCH_SIZE": 32,
+  "EPOCHS": 30
+}
